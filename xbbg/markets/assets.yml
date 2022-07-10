@@ -30,11 +30,17 @@ Comdty:
     exch: CBT
     freq: Q
     is_fut: True
+  - tickers: [XIIA]
+    exch: CommoditiesShanghai
+    freq: M
+    is_fut: True 
+    key_month: [J, K U]
 
 Curncy:
   - tickers: [
       JPY, AUD, HKD, CNHHKD, CNH, EUR, GBP, GBPAUD, SEK, XAU,
-      GBPEUR, AUDGBP, GBPHKD, KWN, IRN, NTN, CNH1M, ZAR, CHF
+      GBPEUR, AUDGBP, GBPHKD, KWN, IRN, NTN, CNH1M, ZAR, CHF,
+      AUDCNY, AUDUSD, XAUUSD, XAGUSD
     ]
     exch: CurrencyGeneric
   - tickers: [KRW]
@@ -61,7 +67,7 @@ Curncy:
     exch: CurrencyICE
 
 Equity:
-  - exch_codes: [AU]
+  - exch_codes: [AU, AT]
     exch: EquityAustralia
   - exch_codes: [JT, JP]
     exch: EquityJapan
@@ -90,6 +96,8 @@ Equity:
   - exch_codes: [IS, IB, IN]
     exch: EquityFuturesIndia
     is_fut: True
+  - exch_codes: [CN]
+    exch: EquityCanada
 
 Index:
   - tickers: [XP]

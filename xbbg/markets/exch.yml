@@ -96,6 +96,12 @@ EquityStockholm:
   allday: [800, 1700]
   day: [800, 1630]
   post: [1631, 1700]
+  
+EquityCanada:
+  tz: America/New_York
+  allday: [400, 2000]
+  day: [0930, 1600]
+  post: [1631, 1700]
 
 EquityUS:
   tz: America/New_York
