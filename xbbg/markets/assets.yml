@@ -30,7 +30,7 @@ Comdty:
     exch: CBT
     freq: Q
     is_fut: True
-  - tickers: [XIIA]
+  - tickers: [XIIA, AA]
     exch: CommoditiesShanghai
     freq: M
     is_fut: True 
