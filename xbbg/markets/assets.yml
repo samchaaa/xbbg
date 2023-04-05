@@ -179,7 +179,7 @@ Index:
       USGG2YR, USGG10YR, USYC2Y10, USYC1030, USGG30YR,
       USGG3YR, USGG5YR
     ]
-    exch: TestExch
+    exch: CurrencyGeneric
   - tickers: [MES]
     exch: FuturesNYFICE
     freq: Q
