@@ -176,7 +176,8 @@ Index:
   - tickers: [MSER, MSPE]
     exch: IndexEurope3
   - tickers: [
-      USGG2YR, USGG10YR, USYC2Y10, USYC1030, USGG30YR
+      USGG2YR, USGG10YR, USYC2Y10, USYC1030, USGG30YR,
+      USGG3YR, USGG5YR
     ]
     exch: IndexUS
   - tickers: [MES]
